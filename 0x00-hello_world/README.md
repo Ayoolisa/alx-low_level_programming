@@ -9,3 +9,5 @@ File 4-puts.c a C program that prints exactly "Programming is like building a mu
 File 5-printf.c a C program that prints exactly ```with proper grammar, but the outcome is a piece of art,```, followed by a new line.
 
 File 6-size.c a C program that prints the size of various types on the computer it is compiled and run on.
+
+File 100-intel  script that generates the assembly code (Intel syntax) of a C code and save it in an output file.
