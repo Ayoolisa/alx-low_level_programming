@@ -1,7 +1,6 @@
 #include <stdio.h>
-#include <main.h>
-#include <_putchar.c>
-#include <unistd.h>
+#include "main.h"
+#include "_putchar.c"
 
 
 /**
@@ -11,7 +10,14 @@
  */
 int main(void)
 {
-	_putchar("_putchar");
+	char *sh = "_putchar";
+
+	while (*sh)
+	{
+		_putchar(*sh);
+		sh++;
+	}
+
 	_putchar('\n');
 
 	return (0);
