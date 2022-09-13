@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * 3-islower.c - is a function that checks for lowercase character.
+ * _islower - is a function that checks for lowercase character.
  * @c: letter being tested
- * Description: int _islower(int c) - checks lowercase
+ * Description: _islower - prints _putchar message.
  * Return: Always 0.
 */
 
