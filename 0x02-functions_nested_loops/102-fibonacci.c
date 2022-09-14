@@ -10,8 +10,8 @@ int main(void)
 {
 	int i;
 	long j, k;
-	 i = 0;
-	 j = k = 2;
+	i = 0;
+	j = k = 2;
 
 
 	while (i < 50)
