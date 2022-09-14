@@ -15,7 +15,6 @@ void times_table(void)
 			product = x * y;
 			if (y != 10)
 			{
-				_putchar(',');
 				_putchar(' ');
 			}
 			if (y == 0)
