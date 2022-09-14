@@ -16,6 +16,7 @@ void times_table(void)
 			if (y != 10)
 			{
 				_putchar(' ');
+				_putchar('\t');
 			}
 			if (y == 0)
 			{
