@@ -16,7 +16,7 @@ void print_square(int size)
 			{
 				_putchar('#');
 			}
-			
+
 			if (height == size - 1)
 			{
 				continue;
