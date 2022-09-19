@@ -1,15 +1,19 @@
 #include "main.h"
+#include <limits.h>
 
 /**
- * swap_int: swaps the values of two integers
- * @a: number being tested
- * @b: number being tested
+ * swap_int - swaps the values of two integers
+ * @a: the first integer to be swapped
+ * @b: the second integer to be swapped
  *
  * Return: Always 0.
  */
 
 void swap_int(int *a, int *b)
 {
-	*a = 42;
-	*b = 98;
+
+	int x = *a;
+	*a = *b;
+	*b = x;
+
 }
