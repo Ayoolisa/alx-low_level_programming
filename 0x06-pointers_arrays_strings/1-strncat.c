@@ -1,6 +1,14 @@
 #include "main.h"
 #include <string.h>
 
+/**
+ * _strncat - concatenates two strings.
+ * @dest: destination string
+ * @src: source string
+ * @n: nunber of bytes from src
+ * Return: new string
+ */
+
 char *_strncat(char *dest, char *src, int n)
 {
 	int i, j = 0;
