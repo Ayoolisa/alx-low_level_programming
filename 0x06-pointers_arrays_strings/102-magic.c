@@ -3,7 +3,7 @@
 /**
  * main - add one line of code to print a[2] = 98
  *
- * Return: void
+ * Return: 0
  */
 int main(void)
 {
@@ -21,7 +21,6 @@ int main(void)
 	 * - only one statement
 	 * - you are not allowed to code anything else than this line of code
 	 */
-
 	*(p + 5) = 98;
 	printf("a[2] = %d\n", a[2]);
 	return (0);
