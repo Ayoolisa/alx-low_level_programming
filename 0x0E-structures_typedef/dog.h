@@ -1,8 +1,16 @@
 #ifndef DOG_H
 #define DOG_H
 
-#include <stdio.h>
-struct dog {
+/**
+ * struct dog - structure for a basic dog
+ * @name: Dog's name
+ * @age: Dog's age
+ * @owner: Dog's owner
+ * Description - Data structure for dog.
+ */
+
+struct dog
+{
 	char *name;
 	float age;
 	char *owner;
