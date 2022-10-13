@@ -3,6 +3,7 @@
 /**
  * main - Prints the result of simple operations.
  * @argc: The number of arguments supplied to the program.
+ * @argv: an array of pointer to char.
  *
  * Return: Always 0.
  */
