@@ -1,7 +1,7 @@
 #include "lists.h"
 
 /**
- * insert_nodeint_at_index - a function that inserts a new 
+ * insert_nodeint_at_index - a function that inserts a new
  * node at a given position.
  * @head: a pointer to the address of the head of the
  * listint_t list.
@@ -30,7 +30,7 @@ listint_t *insert_nodeint_at_index(listint_t **head, unsigned int idx, int n)
 		*head = new;
 		return (new);
 	}
-	for (node = 0; node < (idx- 1); node++)
+	for (node = 0; node < (idx - 1); node++)
 	{
 		if (copy == NULL || copy->next == NULL)
 			return (NULL);
