@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print_binary - converts a binary number
+ * binary_to_uint - converts a binary number
  * to an unsigned int.
  * @b: a pointee to a string of 0 and 1 chars.
  *
